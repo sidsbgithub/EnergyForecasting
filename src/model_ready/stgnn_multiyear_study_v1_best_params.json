@@ -1,0 +1,8 @@
+{
+    "learning_rate": 0.000613049645560782,
+    "batch_size": 32,
+    "gnn_hidden_channels": 128,
+    "gnn_out_channels": 48,
+    "lstm_hidden_dim": 128,
+    "lstm_num_layers": 2
+}

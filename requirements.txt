@@ -1,0 +1,29 @@
+# Core Data Science & ML Libraries
+pandas
+numpy
+scikit-learn
+joblib
+
+# PyTorch Core & Geometric
+# Note: The specific PyTorch Geometric packages might need to be installed following their official instructions
+# This file is a guide; the official install commands handle CUDA versions.
+torch
+torch_geometric
+torch_scatter
+torch_sparse
+# torch_cluster (if used by your GNN layers)
+# torch_spline_conv (if used by your GNN layers)
+
+# Hyperparameter Optimization
+optuna
+
+# Visualization
+matplotlib
+plotly  # For Optuna's interactive plots
+
+# Optional: For API deployment (if you go that route)
+# fastapi
+# uvicorn
+
+# Optional: For managing environment variables/configs
+# python-dotenv

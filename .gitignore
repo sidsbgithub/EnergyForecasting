@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.env
+/venv/
+/env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data files - VERY IMPORTANT
+data/raw/
+data/processed/
+data/model_ready/
+
+# Optuna storage
+*.db
+*.db-journal
+
+# IDE / OS specific
+.vscode/
+.idea/
+.DS_Store

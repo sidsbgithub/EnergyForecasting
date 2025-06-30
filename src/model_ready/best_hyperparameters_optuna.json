@@ -1,0 +1,8 @@
+{
+    "gnn_hidden_channels": 96,
+    "gnn_out_channels": 16,
+    "lstm_hidden_dim": 192,
+    "lstm_num_layers": 2,
+    "learning_rate": 0.00027244028768420305,
+    "batch_size": 64
+}
