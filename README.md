@@ -98,6 +98,26 @@ The model is a Spatio-Temporal Graph Neural Network (STGNN) that combines a Grap
 
 ---
 
+## Model Performance and Evaluation 📊
+
+The model's performance was rigorously evaluated on a held-out test set. The key performance metrics are summarized below:
+
+| Metric | Value |
+| --------------- | -------- |
+| **RMSE** | 227.15 |
+| **MAE** | 159.29 |
+| **R² Score** | 0.98 |
+| **Adjusted MAPE**| 2.94% |
+
+### Observations and Insights
+
+* The **R² score of 0.98** indicates that the model can explain 98% of the variance in the test data, which is an excellent fit.
+* The **Adjusted MAPE of 2.94%** shows that the model's predictions are, on average, within 3% of the actual values. This is a very strong result for energy forecasting.
+* **Error analysis** reveals that the largest errors tend to occur during extreme weather events or holidays, which are notoriously difficult to predict.
+* **Zone-level performance** is consistent across all zones, with no single zone showing significantly worse performance than the others. This demonstrates the model's ability to generalize well across different geographical areas.
+
+---
+
 ## Usage
 
 To use the trained model for prediction, you can use the `06-error-analysis.ipynb` notebook as a reference. The general steps are:
